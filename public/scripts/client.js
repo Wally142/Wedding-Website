@@ -5,16 +5,16 @@ myApp.config(function ($routeProvider, $locationProvider) {
     $locationProvider.hashPrefix('');
     $routeProvider
         .when('/home', {
-            templateUrl: '/views/templates/home.html',
+            templateUrl: '/views/home.html',
             controller: 'WeddingController as wc',
         }).when('/hotel', {
-            templateUrl: '/views/templates/hotel.html',
+            templateUrl: '/views/hotel.html',
             controller: 'WeddingController as wc',
         }).when('/contact', {
-            templateUrl: '/views/templates/contact.html',
+            templateUrl: '/views/contact.html',
             controller: 'WeddingController as wc',
         }).when('/WeddingParty', {
-            templateUrl: '/views/templates/weddingParty.html',
+            templateUrl: '/views/weddingParty.html',
             controller: 'WeddingController as wc',
         }).otherwise({
             redirectTo: 'home'
