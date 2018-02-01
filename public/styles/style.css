@@ -14,14 +14,14 @@ body, html {
 }
 
 .instructions {
-  background: blue;
-  color: rgb(221, 221, 221);
+  background-color: #f1e8dd;
   padding: 15px;
 }
 
 
 .navbar {
-  background: blue;
+  background-color: #f1e8dd;
+  border: 1px solid #d9d9d9;
   width: 100%;
   border-radius: 0px;
 }
