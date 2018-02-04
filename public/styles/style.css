@@ -84,10 +84,12 @@ li a:hover {
 
 .pic {
   background-image: url("../images/Spain3.jpg");
-  height: 900px; 
-  width : 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 100%;
   position: relative;
   bottom: 20px;
-  background-size: cover;
+  background-size: 2000px;
 }
 
