@@ -24,6 +24,7 @@ body, html {
   border: 1px solid #d9d9d9;
   width: 100%;
   border-radius: 0px;
+  
 }
 
 #entryForm {
@@ -63,15 +64,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: inline-block;
 }
 
 li {
   float: left;
-}
+  }
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
