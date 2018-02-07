@@ -7,17 +7,17 @@ var images = [
         description: 'Get at this man',
     },
     {
-        title: 'I Like Socializing',
+        title: 'Mike Machacek',
         picture: '../views/images/Mike.jpg',
         description: 'Get at this man',
     },
     {
-        title: 'I Like To Travel',
+        title: 'Peter Shroyer',
         picture: '../views/images/Peter.jpg',
         description: 'Get at this man',
     },
     {
-        title: 'I Like to Gamble',
+        title: 'Andy Siegel',
         picture: '../views/images/Seagull.jpg',
         description: 'Get at this man',
     }

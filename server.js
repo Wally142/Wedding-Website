@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var port = process.env.PORT || 5000;
-var partyRouter = require('.routes/party');
+var partyRouter = require('./routes/party');
 
 
 app.use(bodyParser.json());
