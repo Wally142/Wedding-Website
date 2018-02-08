@@ -4,16 +4,14 @@ var pool = require('../modules/pool.js');
 
 router.post('/', function (req, res) {
     console.log('in router post', req.body);
-    var text = req.body.comments;
-    var userId = req.user.id;
-    var happy = req.body.id;
+    var reserve = req.body;
     pool.connect(function (error, client, done) {
         if (error) {
             console.log(error);
             res.sendStatus(404);
         } else {
-            var queryString = 'INSERT INTO comments (comments, user_id, location_id) VALUES ($1, $2, $3);';
-            var item = [text, userId, happy];
+            var queryString = 'INSERT INTO wedding (name, guest, attend, meal) VALUES ($1, $2, $3, $4);';
+            var item = [reserve.name, reserve.guest, reserve.attend, reserve.meal];
             client.query(queryString, item, function (queryErr, resultObj) {
                 done();
                 if (queryErr) {

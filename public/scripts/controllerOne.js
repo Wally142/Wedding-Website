@@ -29,7 +29,7 @@ myApp.controller('WeddingController', function ($http, $location) {
 
         $http({
             method: 'POST',
-            url: '/party',
+            url: '/rsvp',
             data: reserve
         }).then(function (response) {
             console.log('RSVP accepted');

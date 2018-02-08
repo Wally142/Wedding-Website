@@ -3,7 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var port = process.env.PORT || 5000;
 var partyRouter = require('./routes/party');
-var rsvpRouter = require('./router/rsvp');
+var rsvpRouter = require('./routes/rsvp');
 
 
 app.use(bodyParser.json());
