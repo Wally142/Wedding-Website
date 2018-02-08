@@ -12,13 +12,11 @@ myApp.controller('WeddingController', function ($http, $location) {
             method: 'GET',
             url: '/party'
         }).then(function (response) {
-            console.log('data received', response);
             vm.images = response.data;
-
         });
     } //end getImages
 
-    function rsvp() {
+    vm.rsvp = function () {
 
         var reserve = {
             name: vm.nameIn,
