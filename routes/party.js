@@ -32,7 +32,7 @@ var images = [
         title: 'Andy Siegel',
         picture: '../images/Seagull.jpg',
         description: 'Groomsmen',
-        title2: 'Peter Shroyer',
+        title2: 'Eswins Wife',
         picture2: '../images/Eswin.jpg',
         description2: 'Bridesmaid',
         
