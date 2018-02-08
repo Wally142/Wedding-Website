@@ -12,7 +12,7 @@ myApp.controller('WeddingController', function ($http) {
             method: 'GET',
             url: '/party'
         }).then(function (response) {
-            console.log('data received');
+            console.log('data received', response);
             vm.images = response.data;
 
         });
