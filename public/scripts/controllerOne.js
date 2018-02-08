@@ -20,13 +20,21 @@ myApp.controller('WeddingController', function ($http, $location) {
 
     function rsvp() {
 
+        var reserve = {
+            name: vm.nameIn,
+            guest: vm.guestIn,
+            attend: vm.attendIn,
+            meal: vm.mealIn
+        }
+
         $http({
             method: 'POST',
-            url: '/party'
+            url: '/party',
+            data: reserve
         }).then(function (response) {
             console.log('RSVP accepted');
             $location.path('/home');
-        });   
+        });
     }
 
 });
