@@ -1,5 +1,5 @@
-myApp.controller('WeddingController', function ($http) {
-    
+myApp.controller('WeddingController', function ($http, $location) {
+
     getImages();
 
     var vm = this;
@@ -17,5 +17,16 @@ myApp.controller('WeddingController', function ($http) {
 
         });
     } //end getImages
+
+    function rsvp() {
+
+        $http({
+            method: 'POST',
+            url: '/party'
+        }).then(function (response) {
+            console.log('RSVP accepted');
+            $location.path('/home');
+        });   
+    }
 
 });

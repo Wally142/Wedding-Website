@@ -19,6 +19,9 @@ myApp.config(function ($routeProvider, $locationProvider) {
         }).when('/WeddingParty2', {
             templateUrl: '/views/weddingParty2.html',
             controller: 'WeddingController as wc',
+        }).when('/rsvp', {
+            templateUrl: '/views/rsvp.html',
+            controller: 'WeddingController as wc'
         }).otherwise({
             redirectTo: 'home'
         });
