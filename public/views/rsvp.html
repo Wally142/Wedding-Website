@@ -3,8 +3,21 @@
 <h1>Please Let us know if you are attending!</h1>
 
 <div>
-    <input type="text" placeholder="Name" ng-model="wc.nameIn">
-    <input type="text" placeholder="Name" ng-model="wc.guestIn">
+    <div>
+        <input type="text" placeholder="Name" ng-model="wc.nameIn">
+        <input type="text" placeholder="Name" ng-model="wc.guestIn">
+    </div>
+    <div>
+        <input type="radio" value="Yes" ng-model="wc.attendIn">
+        <input type="radio" value="No" ng-model="wc.attendIn">
+    </div>
+    <div>
+        <input type="radio" value="Chicken" ng-model="wc.mealIn">
+        <input type="radio" value="Steak" ng-model="wc.mealIn">
+    </div>
+    <div>
+        <input type="radio" value="Chicken" ng-model="wc.mealGuest">
+        <input type="radio" value="Steak" ng-model="wc.mealGuest">
+    </div>
     <button ng-click="wc.rsvp()">Submit</button>
-    
 </div>

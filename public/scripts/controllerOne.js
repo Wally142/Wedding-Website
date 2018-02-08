@@ -22,7 +22,8 @@ myApp.controller('WeddingController', function ($http, $location) {
             name: vm.nameIn,
             guest: vm.guestIn,
             attend: vm.attendIn,
-            meal: vm.mealIn
+            meal: vm.mealIn,
+            guestmeal: vm.mealGuest
         }
 
         $http({

@@ -10,8 +10,8 @@ router.post('/', function (req, res) {
             console.log(error);
             res.sendStatus(404);
         } else {
-            var queryString = 'INSERT INTO wedding (name, guest, attend, meal) VALUES ($1, $2, $3, $4);';
-            var item = [reserve.name, reserve.guest, reserve.attend, reserve.meal];
+            var queryString = 'INSERT INTO wedding (name, guest, attend, meal, guestmeal) VALUES ($1, $2, $3, $4, $5);';
+            var item = [reserve.name, reserve.guest, reserve.attend, reserve.meal, reserve.guestmeal];
             client.query(queryString, item, function (queryErr, resultObj) {
                 done();
                 if (queryErr) {
