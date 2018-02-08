@@ -4,26 +4,38 @@ var images = [
     {
         title: 'Gary Wallerus',
         picture: '../images/Gary.jpg',
-        description: 'Get at this man',
-        picture2: 'dog'
+        description: 'Best Man',
+        title2: 'Yolanda Lavelle',
+        picture2: '../images/Yolanda.jpg',
+        description2: 'Maid of Honor',
+        
     },
     {
         title: 'Mike Machacek',
         picture: '../images/Mike.jpg',
-        description: 'Get at this man',
-        picture2: 'dog'
+        description: 'Best Man',
+        title2: 'Sahra Lavelle',
+        picture2: '../images/Sahra.jpg',
+        description2: 'Bridesmaid',
+        
     },
     {
         title: 'Peter Shroyer',
         picture: '../images/Peter.jpg',
-        description: 'Get at this man',
-        picture2: 'dog'
+        description: 'Groomsmen',
+        title2: 'Vicki Souvannarath',
+        picture2: '../images/Vicki.jpg',
+        description2: 'Bridesmaid',
+        
     },
     {
         title: 'Andy Siegel',
         picture: '../images/Seagull.jpg',
-        description: 'Get at this man',
-        picture2: 'dog'
+        description: 'Groomsmen',
+        title2: 'Peter Shroyer',
+        picture2: '../images/Eswin.jpg',
+        description2: 'Bridesmaid',
+        
     }
 ];
 
