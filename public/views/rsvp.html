@@ -1,9 +1,9 @@
 <div ng-include="'views/partials/nav.html'"></div>
 
-<h1 class="text-center">Please Let us know if you are attending!</h1>
+<h1 class="text-center title">Please Let us know if you are attending!</h1>
 
 <div class="text-center">
-    <h3>Your Name(s)</h3>
+    <h3 class="title">Your Name(s)</h3>
     <div>
         <input type="text" placeholder="Name" ng-model="wc.nameIn">
         <br>
@@ -11,21 +11,21 @@
         <input type="text" placeholder="Name" ng-model="wc.guestIn">
     </div>
     <div>
-        <h3>Attending?</h3>
+        <h3 class="title">Attending?</h3>
         <input type="radio" value="Yes" ng-model="wc.attendIn">
         Yes<br>
         <input type="radio" value="No" ng-model="wc.attendIn">
         No<br>
     </div>
     <div>
-        <h3>Meal Choice</h3>
+        <h3 class="title">Meal Choice</h3>
         <input type="radio" value="Chicken" ng-model="wc.mealIn">
         Chicken<br>
         <input type="radio" value="Steak" ng-model="wc.mealIn">
         Steak<br>
     </div>
     <div>
-        <h3>Meal Choice</h3>
+        <h3 class="title">Meal Choice</h3>
         <input type="radio" value="Chicken" ng-model="wc.mealGuest">
         Chicken<br>
         <input type="radio" value="Steak" ng-model="wc.mealGuest">
