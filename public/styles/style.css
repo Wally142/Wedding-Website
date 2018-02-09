@@ -115,3 +115,8 @@ p {
 .title {
   font-family: 'Nanum Myeongjo', serif;
 }
+
+.two {
+  background-color: #f1e8dd;
+  border: 1px solid #d9d9d9;
+}
