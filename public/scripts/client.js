@@ -7,10 +7,10 @@ myApp.config(function ($routeProvider, $locationProvider) {
         .when('/home', {
             templateUrl: '/views/home.html',
             controller: 'WeddingController as wc',
-        }).when('/hotel', {
+        }).when('/Hotel', {
             templateUrl: '/views/hotel.html',
             controller: 'WeddingController as wc',
-        }).when('/contact', {
+        }).when('/Reception', {
             templateUrl: '/views/contact.html',
             controller: 'WeddingController as wc',
         }).when('/WeddingParty', {
@@ -19,8 +19,14 @@ myApp.config(function ($routeProvider, $locationProvider) {
         }).when('/WeddingParty2', {
             templateUrl: '/views/weddingParty2.html',
             controller: 'WeddingController as wc',
-        }).when('/rsvp', {
+        }).when('/RSVP', {
             templateUrl: '/views/rsvp.html',
+            controller: 'WeddingController as wc'
+        }).when('/Photos', {
+            templateUrl: '/views/photos.html',
+            controller: 'WeddingController as wc'
+        }).when('/Registry', {
+            templateUrl: '/views/registry.html',
             controller: 'WeddingController as wc'
         }).otherwise({
             redirectTo: 'home'
