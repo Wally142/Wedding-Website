@@ -99,7 +99,7 @@ li a:hover {
 
 .party {
   height: 400px;
-  width: 450px;
+  width: 500px;
 }
 
 body {
@@ -119,4 +119,11 @@ p {
 .two {
   background-color: #f1e8dd;
   border: 1px solid #d9d9d9;
+}
+
+.bodega {
+  position: relative;
+  bottom: 25px;
+  height: 400px;
+  width: 550px;
 }
