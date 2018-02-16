@@ -171,3 +171,18 @@ p {
   top: 30px;
 }
 
+.reception {
+  position: relative;
+  top: 170px;
+}
+
+.ceremony {
+  position: relative;
+  top: 40px;
+}
+
+.move {
+   position: relative;
+  top: 70px;
+
+}
