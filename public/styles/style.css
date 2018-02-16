@@ -151,3 +151,23 @@ p {
   font-size: 42px;
   font-weight: bold;
 }
+
+.hotel {
+  width: 550px;
+  height: 365px;
+}
+
+.other {
+  position: relative;
+  top: 170px;
+}
+
+.hotels {
+  font-size: 14px;
+}
+
+.words {
+  position: relative;
+  top: 30px;
+}
+
