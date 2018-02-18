@@ -184,5 +184,9 @@ p {
 .move {
    position: relative;
   top: 70px;
+}
 
+.photo {
+  margin: 3%;
+  
 }
