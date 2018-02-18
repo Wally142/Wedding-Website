@@ -157,33 +157,8 @@ p {
   height: 365px;
   }
 
-.other {
-  position: relative;
-  top: 170px;
-}
-
 .hotels {
   font-size: 14px;
-}
-
-.words {
-  position: relative;
-  top: 30px;
-}
-
-.reception {
-  position: relative;
-  top: 170px;
-}
-
-.ceremony {
-  position: relative;
-  top: 40px;
-}
-
-.move {
-   position: relative;
-  top: 70px;
 }
 
 .photo {
