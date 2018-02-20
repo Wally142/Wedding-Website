@@ -25,9 +25,6 @@ myApp.config(function ($routeProvider, $locationProvider) {
         }).when('/Photos', {
             templateUrl: '/views/photos.html',
             controller: 'WeddingController as wc'
-        }).when('/Registry', {
-            templateUrl: '/views/registry.html',
-            controller: 'WeddingController as wc'
         }).otherwise({
             redirectTo: 'home'
         });
