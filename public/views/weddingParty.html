@@ -6,10 +6,10 @@
 
 <main>
     <div class="container one">
-        <div ng-repeat="image in wc.images" class="col-md-6">
-            <h1 class="title">{{image.title}}</h1>
+        <div ng-repeat="image in wc.images" class="col-md-6 col-xs-12">
+            <h1 class="title text-center">{{image.title}}</h1>
             <img class="party img-rounded" ng-src="{{image.picture}}">
-            <p>{{image.description}}</p>
+            <p class="text-center">{{image.description}}</p>
         </div>
     </div>
 </main>
