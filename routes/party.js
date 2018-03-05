@@ -47,10 +47,10 @@ var images = [
 
     },
     {
-        title: 'Max Sawochka',
+        title: 'Cesar Camacho',
         picture: '../images/max.jpg',
         description: 'Groomsmen',
-        title2: 'Michelle Roth',
+        title2: 'Eva',
         picture2: '../images/michelle.jpg',
         description2: 'Bridesmaid',
     }
