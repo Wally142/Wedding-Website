@@ -21,7 +21,7 @@ var images = [
     },
     {
         title: 'Peter Shroyer',
-        picture: '../images/Peter.jpg',
+        picture: '../images/peter.jpg',
         description: 'Groomsmen',
         title2: 'Bridgitte Manay',
         picture2: '../images/bmanay.jpg',
@@ -32,7 +32,7 @@ var images = [
         title: 'Marty Hanson',
         picture: '../images/marty.jpg',
         description: 'Groomsmen',
-        title2: 'Vikki Souvanarath',
+        title2: 'Vicki Souva',
         picture2: '../images/Vicki.jpg',
         description2: 'Bridesmaid',
 
@@ -48,10 +48,10 @@ var images = [
     },
     {
         title: 'Cesar Camacho',
-        picture: '../images/max.jpg',
+        picture: '../images/cesar.jpg',
         description: 'Groomsmen',
-        title2: 'Eva',
-        picture2: '../images/michelle.jpg',
+        title2: 'Eva Napoles',
+        picture2: '../images/eva.jpg',
         description2: 'Bridesmaid',
     }
 ];
