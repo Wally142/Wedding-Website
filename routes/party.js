@@ -1,6 +1,7 @@
-var router = require('express').Router();
+const router = require('express').Router();
+require('dotenv').config();
 
-var images = [
+const images = [
     {
         title: 'Gary Wallerus',
         picture: '../images/Gary.jpg',

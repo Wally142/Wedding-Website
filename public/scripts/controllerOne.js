@@ -2,7 +2,7 @@ myApp.controller('WeddingController', function ($http, $location) {
 
     getImages();
 
-    var vm = this;
+    let vm = this;
 
     vm.images = [];
 
@@ -18,7 +18,7 @@ myApp.controller('WeddingController', function ($http, $location) {
 
     vm.rsvp = function () {
 
-        var reserve = {
+        let reserve = {
             name: vm.nameIn,
             guest: vm.guestIn,
             attend: vm.attendIn,

@@ -23,12 +23,14 @@
     "body-parser": "^1.18.2",
     "bootstrap": "^4.0.0",
     "browser-sync": "^2.23.6",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-html-beautify": "^1.0.1",
     "gulp-less": "^3.5.0",
     "pg": "^7.4.1",
+    "request": "^2.83.0",
     "sweetalert2": "^7.15.1"
   }
 }
