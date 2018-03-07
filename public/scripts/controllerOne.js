@@ -31,9 +31,16 @@ myApp.controller('WeddingController', function ($http, $location) {
             url: '/rsvp',
             data: reserve
         }).then(function (response) {
-            console.log('RSVP accepted');
+            swal({
+                title: 'Thank You!',
+                text: 'Your RSVP has been submitted',
+                imageUrl: './images/cake.jpg',
+                imageHeight: 300,
+                imageWidth: 300,
+                imageAlt: 'Custom image',
+                animation: false
+            });
             $location.path('/home');
         });
     }
-
-});
+});// end controller

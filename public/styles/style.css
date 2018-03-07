@@ -80,7 +80,7 @@ li a {
 
 li a:hover {
   text-decoration: underline;
-  color: #eee;
+  color: rgb(21, 21, 200);
 }
 
 .pic {
@@ -195,6 +195,16 @@ p {
       position: relative;
       right: 82px;
     }
+}
+
+.radios {
+  position: relative;
+  right: 8px;
+}
+
+#attend {
+  position: relative;
+  right:2px;
 }
 
 @media screen and (max-width: 768px) {
