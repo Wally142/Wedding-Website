@@ -107,7 +107,7 @@ body {
 
 p {
   font-family: 'Nanum Myeongjo', serif;
-  font-size: 28px;
+  font-size: 24px;
   
 }
 
@@ -219,4 +219,6 @@ p {
       }
 }
 
-
+.small-font {
+  font-size:12px;
+}
