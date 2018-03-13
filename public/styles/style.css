@@ -13,13 +13,11 @@ body, html {
   padding: 15px;
 }
 
-
 .navbar {
   background-color: #f1e8dd;
   border: 1px solid #d9d9d9;
   width: 100%;
   border-radius: 0px;
-  
 }
 
 #entryForm {
@@ -108,7 +106,6 @@ body {
 p {
   font-family: 'Nanum Myeongjo', serif;
   font-size: 24px;
-  
 }
 
 .title {
@@ -154,7 +151,7 @@ p {
 .hotel {
   width: 550px;
   height: 365px;
-  }
+}
 
 .hotels {
   font-size: 14px;
@@ -162,7 +159,7 @@ p {
 
 .photo {
   margin: 3%;
-  }
+}
 
 .party1 {
   font-size: 20px;
