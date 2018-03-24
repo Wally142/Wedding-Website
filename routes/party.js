@@ -6,7 +6,7 @@ const images = [
         title: 'Gary Wallerus',
         picture: '../images/Gary.jpg',
         description: 'Best Man',
-        title2: 'Yolanda Lavelle',
+        title2: 'Yolanda Manay LaVelle',
         picture2: '../images/Yolanda.jpg',
         description2: 'Maid of Honor',
 
@@ -15,14 +15,14 @@ const images = [
         title: 'Mike Machacek',
         picture: '../images/Mike.jpg',
         description: 'Best Man',
-        title2: 'Sahra Lavelle',
+        title2: 'Sahra LaVelle',
         picture2: '../images/Sahra.jpg',
         description2: 'Bridesmaid',
 
     },
     {
         title: 'Peter Shroyer',
-        picture: '../images/peter1.png',
+        picture: '../images/peter.jpg',
         description: 'Groomsmen',
         title2: 'Bridgitte Manay',
         picture2: '../images/bmanay.jpg',
