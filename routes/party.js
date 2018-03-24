@@ -22,7 +22,7 @@ const images = [
     },
     {
         title: 'Peter Shroyer',
-        picture: '../images/peter.jpg',
+        picture: '../images/peter.png',
         description: 'Groomsmen',
         title2: 'Bridgitte Manay',
         picture2: '../images/bmanay.jpg',
